@@ -1,0 +1,6 @@
+  <extension name="Test999999">
+    <condition field="destination_number" expression="^999999$">
+       <action application="answer"/>
+      <action application="playback" data="ajit/51.wav"/>
+    </condition>
+  </extension>
